@@ -8,17 +8,31 @@ Phantom is an open source Web server, proxy server and load generator for plain 
 Features
 ========
 
-* **Write user test scenarios in plain-text**
+Very accurate and predictable measurement
+-----------------------------------------
+  
+ Test scenario is defined up to every millisecond and every byte send to test host
 
- Bla Bla Bla
+Low level data collected in simple format
+-----------------------------------------
+ Test plain and result both are plain-text files, which could be parsed with ever You want
 
-* **Distributed & Scalable - supports tens of thousands of concurrent requests**
+ Result consist of: 
 
- Bla Bla Bla
+ * send/receive data size
+ * rtt, connection, send, server-side processing and receive times for each request
+ * networks error codes(errno) and application layer protocol specific codes, like HTTP status codes.
 
-* **Hackable**
+Distributed & Scalable - supports tens of thousands of concurrent requests
+--------------------------------------------------------------------------
 
- Bla Bla BLa
+ You can get ~40K HTTP rps from one Phantom instance(POSIX process) on one Linux box
+ Process are independent from each other     
+
+Extendable/Hackable
+-------------------
+ 
+ You can write Your own Phantom modules for custom protocols like SSL or put anything in plain-text protocols body.
 
 Background
 ==========
