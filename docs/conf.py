@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Phantom Doc documentation build configuration file, created by
-# sphinx-quickstart on Tue Apr 24 13:45:33 2012.
+# sphinx-quickstart on Tue Apr 24 13:54:26 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Phantom Doc'
-copyright = u'2012, Gregory Komissarov & Ynadex'
+copyright = u'2012, Gregory Komissarov & Yandex'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,7 +184,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'PhantomDoc.tex', u'Phantom Doc Documentation',
-   u'Gregory Komissarov \\& Ynadex', 'manual'),
+   u'Gregory Komissarov \\& Yandex', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -214,7 +214,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'phantomdoc', u'Phantom Doc Documentation',
-     [u'Gregory Komissarov & Ynadex'], 1)
+     [u'Gregory Komissarov & Yandex'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -228,7 +228,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'PhantomDoc', u'Phantom Doc Documentation',
-   u'Gregory Komissarov & Ynadex', 'PhantomDoc', 'One line description of project.',
+   u'Gregory Komissarov & Yandex', 'PhantomDoc', 'One line description of project.',
    'Miscellaneous'),
 ]
 
