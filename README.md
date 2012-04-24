@@ -1,7 +1,11 @@
-Docs
-=====
-call $ make html in docs folder to get lates documentation
+Welcome to Phantom load tool docs
+=================================
 
-Examples
-========
+## Documentation
+More info and documentation can be found at: http://readthedocs.org/docs/phantom-doc/en/latest/
+
+## Examples
 contains common use cases for phantom tool
+
+## License
+Open source licensed under the BSD license (see LICENSE.bsd file for details).
