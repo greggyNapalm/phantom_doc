@@ -26,7 +26,8 @@ Low level data collected in simple format
 Distributed & Scalable - supports tens of thousands of concurrent requests
 --------------------------------------------------------------------------
 
- You can get ~40K HTTP rps from one Phantom instance(POSIX process) on one Linux box
+ You can get `~40K HTTP rps` from one Phantom instance(POSIX process) on one Linux box
+
  Process are independent from each other     
 
 Extendable/Hackable
