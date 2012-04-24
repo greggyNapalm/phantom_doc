@@ -23,6 +23,23 @@ Features
 Background
 ==========
 
+Analogs
+=======
+
+* **Free**
+    * `jMeter <http://jmeter.apache.org/>`_
+    * `Tsung <http://tsung.erlang-projects.org/>`_
+    * `Siege <http://www.joedog.org/siege-home/>`_
+    * `ab <http://httpd.apache.org/docs/2.0/programs/ab.html>`_
+    * `Locust <https://github.com/esnme/locust>`_
+    * `Httperf <http://code.google.com/p/httperf/>`_
+    * `Pylot <http://pylot.org/>`_
+    * `http_load <http://www.acme.com/software/http_load/>`_
+
+* **Nonefree**
+    * `HP LoadRunner <http://www8.hp.com/us/en/software-solutions/software.html?compURI=1175451>`_
+    * `IBM - IBM Rational Performance Tester <http://www.ibm.com/software/awdtools/tester/performance/>`_
+
 Authors
 =======
 * Evgeniy Mamchits
