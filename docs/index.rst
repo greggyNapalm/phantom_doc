@@ -11,7 +11,7 @@
 :Download: `Phantom Doc on GitHub
  <https://github.com/greggyNapalm/phantom_doc>`_
 :Documentation: `PDF Documentation
- <http://github-link/phantom_doc-0.0.1.pdf>`_
+ <http://media.readthedocs.org/pdf/phantom-doc/latest/phantom-doc.pdf>`_
 :License: `BSD License
  <http://www.voidspace.org.uk/python/license.shtml>`_
 :Support: `Google Group
