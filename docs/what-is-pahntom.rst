@@ -15,7 +15,7 @@ Very accurate and predictable measurement
 
 Low level data collected in simple format
 -----------------------------------------
- Test plain and result both are plain-text files, which could be parsed with ever You want
+ Test plan and result both are plain-text files, which could be parsed with ever You want
 
  Result consist of: 
 
@@ -26,7 +26,7 @@ Low level data collected in simple format
 Distributed & Scalable - supports tens of thousands of concurrent requests
 --------------------------------------------------------------------------
 
- You can get `~40K HTTP rps` from one Phantom instance(POSIX process) on one Linux box
+ You can get ``~40K HTTP rps`` from one Phantom instance(POSIX process) on one Linux box
 
  Process are independent from each other     
 
