@@ -12,7 +12,7 @@ Find a bug? Want a feature? Submit an [issue
 here](http://github.com/greggyNapalm/phantom_doc/issues). Patches welcome!
 
 ## Contributors
-`View contributors on GitHub <https://github.com/greggyNapalm/phantom_doc/contributors>`_.
+[View contributors on GitHub](https://github.com/greggyNapalm/phantom_doc/contributors>)
 
 ## License
 Open source licensed under the BSD license (see LICENSE.bsd file for details).
