@@ -26,7 +26,7 @@ Background
 Analogs
 =======
 
-* **Free**
+* **Free tools**
     * `jMeter <http://jmeter.apache.org/>`_
     * `Tsung <http://tsung.erlang-projects.org/>`_
     * `Siege <http://www.joedog.org/siege-home/>`_
@@ -35,10 +35,20 @@ Analogs
     * `Httperf <http://code.google.com/p/httperf/>`_
     * `Pylot <http://pylot.org/>`_
     * `http_load <http://www.acme.com/software/http_load/>`_
+    * `Grinder <http://grinder.sourceforge.net/>`_
 
-* **Nonefree**
+* **Nonefree tools**
     * `HP LoadRunner <http://www8.hp.com/us/en/software-solutions/software.html?compURI=1175451>`_
     * `IBM - IBM Rational Performance Tester <http://www.ibm.com/software/awdtools/tester/performance/>`_
+    * `Borland SilkPerformer <http://www.borland.com/us/products/silk/silkperformer/>`_
+    * `Visual Studio Load Test <http://www.microsoft.com/visualstudio/en-us/products/2010-editions/load-test-virtual-user-pack/overview>`_
+    * `WebLoad <http://www.webload.org/>`_
+
+
+* **online Services**
+    * `loadstorm <http://loadstorm.com/>`_
+    * `loadimpact <http://loadimpact.com/>`_
+    * `neustar <https://browsermob.com/performance-testing>`_
 
 Authors
 =======
