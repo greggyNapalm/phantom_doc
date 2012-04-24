@@ -5,7 +5,7 @@ Welcome to Phantom load tool docs
 More info and documentation can be found at: http://phantom-doc.readthedocs.org/en/latest/
 
 ## Examples
-contains common use cases for phantom tool
+Contains common use cases for phantom tool
 
 ## Issues
 Find a bug? Want a feature? Submit an [issue
