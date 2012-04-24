@@ -16,6 +16,8 @@
  <http://www.voidspace.org.uk/python/license.shtml>`_
 :Support: `Google Group
  <https://groups.google.com/d/forum/phantom_doc>`_
+Issue tracker:`GitHub Issues
+ <http://github.com/greggyNapalm/phantom_doc/issues>`_
 
 .. toctree ::
     :maxdepth: 2
