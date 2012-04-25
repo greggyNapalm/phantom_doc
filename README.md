@@ -3,6 +3,7 @@ Welcome to Phantom load tool docs
 
 ## Documentation
 More info and documentation can be found at: http://phantom-doc.readthedocs.org/en/latest/
+
 Russian documentation is also available: http://phantom-doc-ru.readthedocs.org/en/latest/
 
 ## Examples
