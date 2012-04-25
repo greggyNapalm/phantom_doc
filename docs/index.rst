@@ -5,7 +5,7 @@
 :Author: `Gregory Komissarov
  <https://github.com/greggyNapalm>`_
 :Version: |release|
-:Date: 2012/04/24
+:Date: |today|
 :Homepage: `Phantom Doc Homepage
  <https://github.com/greggyNapalm/phantom_doc>`_
 :Download: `Phantom Doc on GitHub
