@@ -1,48 +1,48 @@
+=================
+Что такое Phantom
+=================
+
+Phantom является приложением с открытым исходным кодом, которое может выступать в роли Web сервера, прокси сервера и генератора нагрузки c акцентом на высоку производительность, малое потребление ресурсов и точность выходных данных. Выпускается под лицензией LGPL, работает на операционной системе GNU Linux.
+
+
+**Особенности**
 ===============
-What is Phantom
-===============
 
-Phantom is an open source Web server, proxy server and load generator, with a strong focus on high concurrency, performance and low memory usage. It is licensed under a LGPL-like license and it runs on Linux.
-
-
-**Features**
-============
-
-Very accurate and predictable measurement
------------------------------------------
+Точные и прогназируемые результаты измерений
+--------------------------------------------
   
- Test scenario is defined up to every millisecond and every byte send to test host
+ Тестовый сценарий описывает подаваемую нагрузку с точностью до миллисекунды до байта передаваемой информации.
 
-Low level data collected in simple format
------------------------------------------
- Test plan and result both are plain-text files, which could be parsed with ever You want
+Сложные выходные данные собираются в простом формате
+----------------------------------------------------
+ План теста и результат представляют собой плоские файлы, с которыми мижно работать любым удобным способом.
 
- Result consist of: 
+ Выходной результат содержит следующие данные:
 
- * send/receive data size
- * rtt, connection, send, server-side processing and receive times for each request
- * networks error codes(errno) and application layer protocol specific codes, like HTTP status codes.
+ * Размер отправленной и полученной информации
+ * время потраченое на соединение, отпрапвку, обработку и получение запроса
+ * Отслеживание ошибок как на транспортном уровне так и на уровне протоколов приложений.
 
-Distributed & Scalable - supports tens of thousands of concurrent requests
---------------------------------------------------------------------------
+Распределённость и маштабирование
+---------------------------------
 
- You can get ``~40K HTTP rps`` from one Phantom instance(POSIX process) on one Linux box
+ Вы можете сгенерировать выходную нагрузку ``~40K HTTP rps`` используя одну копию приложения( одни POSIX процесс) на одном сервере
 
- Process are independent from each other     
+ Процессы генератора нагрзки могут работать параллельно и не зависят друг от друга, что позволяет маштабировать нагрузку горизонтально.
 
-Extendable/Hackable
--------------------
+Возможность изменять и дополнять
+--------------------------------
  
- You can write Your own Phantom modules for custom protocols like SSL or put anything in plain-text protocols body.
+ Фантом имеет модульную структуру, что позваляет расширять базовый фукционал новыми протоколами, такими как SSL.
 
-**Background**
-==============
+**Предпосылки**
+===============
 
-**Analogs**
-===========
+**Аналогичные решения**
+=======================
 
-Free tools
-----------
+Свободно распространяемые
+-------------------------
  * `jMeter <http://jmeter.apache.org/>`_
  * `Tsung <http://tsung.erlang-projects.org/>`_
  * `Siege <http://www.joedog.org/siege-home/>`_
@@ -53,7 +53,7 @@ Free tools
  * `http_load <http://www.acme.com/software/http_load/>`_
  * `Grinder <http://grinder.sourceforge.net/>`_
 
-Nonefree tools
+Поприетарные
 --------------
  * `HP LoadRunner <http://www8.hp.com/us/en/software-solutions/software.html?compURI=1175451>`_
  * `IBM - IBM Rational Performance Tester <http://www.ibm.com/software/awdtools/tester/performance/>`_
@@ -62,17 +62,17 @@ Nonefree tools
  * `WebLoad <http://www.webload.org/>`_
 
 
-online Services
----------------
+Предоставляемые в виде сервиса
+------------------------------
  * `loadstorm <http://loadstorm.com/>`_
  * `loadimpact <http://loadimpact.com/>`_
  * `neustar <https://browsermob.com/performance-testing>`_
 
-**Authors**
-===========
- * Evgeniy Mamchits
+**Авторы**
+==========
+ * Евгений Мамчиц
 
-**License**
-===========
+**Лицензия**
+============
 
-Open source licensed under the `LGPL <http://www.gnu.org/licenses/lgpl-2.1.html>`_ license.
+Исходный код приложения распространияется под открытой лицензией `LGPL <http://www.gnu.org/licenses/lgpl-2.1.html>`_.
