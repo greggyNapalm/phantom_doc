@@ -22,9 +22,9 @@
 .. toctree ::
     :maxdepth: 2
     
-    what-is-pahntom
+    what-is-phantom
     installation
     quickstart
-    writing-a-pahntom-conf
+    writing-a-phantom-conf
     extending-phantom
     changelog
