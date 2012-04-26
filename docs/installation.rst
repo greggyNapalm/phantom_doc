@@ -10,13 +10,13 @@
 Устанавливаем необходимые пакеты:
 ::
 
-    apt-get install devscripts debhelper libssl-dev
+    $ apt-get install devscripts debhelper libssl-dev
 
 Копируем последнюю ревизию кода из репозитория:
 FIXME: add link to repo
 ::
 
-    git clone git://path_to_repo
+    $ git clone git://path_to_repo
 
 Для правки зависимостей необходимо наложить небольшой патч:
 ::
