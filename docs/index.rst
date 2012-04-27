@@ -26,5 +26,7 @@
     installation
     quickstart
     writing-a-pahntom-conf
+    analyzing_result_data
     extending-phantom
+    examples
     changelog
