@@ -1,0 +1,15 @@
+84 1000
+GET / HTTP/1.0
+User-Agent: phantom_14/1.2.3
+Host: 127.0.0.1
+Connection: Close
+
+
+84 2000
+GET / HTTP/1.0
+User-Agent: phantom_14/1.2.3
+Host: 127.0.0.1
+Connection: Close
+
+
+0
