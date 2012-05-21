@@ -1,5 +1,5 @@
 ===========================================================
- Pahntom Doc - Documentation and examples of usage
+ Phantom Doc - Documentation and examples of usage
 ===========================================================
 
 :Author: `Gregory Komissarov
