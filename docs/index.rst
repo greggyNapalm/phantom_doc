@@ -25,7 +25,7 @@
     what-is-pahntom
     installation
     quickstart
-    writing-a-pahntom-conf
+    writing-a-phantom-conf
     analyzing_result_data
     extending-phantom
     examples
