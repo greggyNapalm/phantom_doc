@@ -53,9 +53,9 @@ transport
 
 Примеры готовых конфигурационных файлов:
 ---------------------------------------------
- * `ipv4 TCP HTTP <http://loadstorm.com/>`_
- * `ipv6 TCP HTTP <http://loadstorm.com/>`_
- * `ipv4 SSL HTTP <http://loadstorm.com/>`_
+ * `ipv4 SSL HTTP <https://github.com/greggyNapalm/phantom_doc/raw/master/examples/phantom_conf/phantom_ipv4_ssl_http.conf>`_
+ * `ipv4 TCP HTTP <https://github.com/greggyNapalm/phantom_doc/raw/master/examples/phantom_conf/phantom_ipv4_tcp_http.conf>`_
+ * `ipv6 TCP HTTP <https://github.com/greggyNapalm/phantom_doc/raw/master/examples/phantom_conf/phantom_ipv6_tcp_http.conf>`_
 
 
 ammo.stpd
