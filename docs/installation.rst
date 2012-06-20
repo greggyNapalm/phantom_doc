@@ -10,7 +10,7 @@
 Устанавливаем необходимые пакеты:
 ::
 
-    $ apt-get install devscripts debhelper libssl-dev
+    $ apt-get install devscripts debhelper libssl-dev binutils-dev
 
 Копируем последнюю ревизию кода из репозитория:
 FIXME: add link to repo
@@ -18,7 +18,7 @@ FIXME: add link to repo
 
     $ git clone git://path_to_repo
 
-Для правки зависимостей необходимо наложить небольшой патч:
+Если версия дистрибутива Ubuntu Linux старше чем 12 LTS, необходимо наложить небольшой патч:
 ::
 
     $ cd src
