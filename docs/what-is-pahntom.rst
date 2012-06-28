@@ -48,6 +48,7 @@ Phantom является приложением с открытым исходн
  * `Siege <http://www.joedog.org/siege-home/>`_
  * `ab <http://httpd.apache.org/docs/2.0/programs/ab.html>`_
  * `Locust <https://github.com/esnme/locust>`_
+ * `iago <http://twitter.github.com/iago/>`_
  * `Httperf <http://code.google.com/p/httperf/>`_
  * `Pylot <http://pylot.org/>`_
  * `http_load <http://www.acme.com/software/http_load/>`_
