@@ -10,25 +10,24 @@
 Устанавливаем необходимые пакеты:
 ::
 
-    $ apt-get install devscripts debhelper libssl-dev binutils-dev
+    $ apt-get install devscripts debhelper libssl-dev binutils-dev binutils-dev
 
 Копируем последнюю ревизию кода из репозитория:
 FIXME: add link to repo
 ::
 
-    $ git clone git://path_to_repo
+    $ git clone git://path_to_repo; cd phantom
 
-Если версия дистрибутива Ubuntu Linux старше чем 12 LTS, необходимо наложить небольшой патч:
+Если версия дистрибутива Ubuntu Linux старше чем 10 LTS, необходимо наложить небольшой патч:
 ::
 
-    $ cd src
     $ cat > phantom_deb_control_ssl_ver.patch <<EOF
-    5c5
-    < Build-Depends: debhelper (>= 7), libc6-dev, g++, libssl-dev (>= 0.9.8m-1), perl
+    7c7
+    <   libssl-dev (>= 0.9.8m-1),
     ---
-    > Build-Depends: debhelper (>= 7), libc6-dev, g++, libssl-dev (>= 0.9.8), perl
+    >   libssl-dev (>= 0.9.8),
     EOF
-    $ patch debian/control < phantom_deb_control_ssl_ver.patch
+    $ patch --ignore-whitespace debian/control < phantom_deb_control_ssl_ver.patch
 
 Собираем и устанавливаем пакет:
 ::
