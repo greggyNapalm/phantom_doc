@@ -18,7 +18,7 @@ FIXME: add link to repo
 
     $ git clone git://path_to_repo; cd phantom
 
-Если версия дистрибутива Ubuntu Linux старше чем 10 LTS, необходимо наложить небольшой патч:
+Если версия дистрибутива Ubuntu Linux старше чем 12 LTS: 8.04, 10.04, необходимо наложить небольшой патч:
 ::
 
     $ cat > phantom_deb_control_ssl_ver.patch <<EOF
