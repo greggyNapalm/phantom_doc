@@ -13,10 +13,9 @@
     $ apt-get install devscripts debhelper libssl-dev binutils-dev binutils-dev
 
 Копируем последнюю ревизию кода из репозитория:
-FIXME: add link to repo
 ::
 
-    $ git clone git://path_to_repo; cd phantom
+    $ git clone git://github.com/mamchits/phantom.git; cd phantom
 
 Если версия дистрибутива Ubuntu Linux старше чем 12 LTS: 8.04, 10.04, необходимо наложить небольшой патч:
 ::
@@ -38,13 +37,13 @@ FIXME: add link to repo
 Проверяем, результат установки пакета:
 ::
 
-    # В списке установленых пакетов должны быть только что собранные нами
+    # В списке установленных пакетов должны быть только что собранные нами
     $ dpkg -l | grep -i phantom
 
     # Слинкованые файлы должны быть найдены
     $ ldd `which phantom`
 
-    # В STDOUT должны бать выведена справка по разделу конфига
+    # В STDOUT должна бать выведена справка по разделу конфига
     $ phantom syntax /usr/lib/phantom/mod_io_benchmark{,_method_stream{,_ipv4,_ipv6,_source_random,_source_log,_proto_http}}.so
 
 Предыдущие команды должны быть выполнены без ошибок. `Ожидаемый вывод <https://gist.github.com/2507603>`_
