@@ -43,11 +43,11 @@
     # Слинкованые файлы должны быть найдены
     $ ldd `which phantom`
 
-    # В STDOUT должна бать выведена справка по разделу конфига
+    # В STDOUT должна быть выведена справка по разделу конфига
     $ phantom syntax /usr/lib/phantom/mod_io_benchmark{,_method_stream{,_ipv4,_ipv6,_source_random,_source_log,_proto_http}}.so
 
 Предыдущие команды должны быть выполнены без ошибок. `Ожидаемый вывод <https://gist.github.com/2507603>`_
 
-На данном этапе мы имеем проинсталированный и готовый к работе Phantom, переходим к ваполнению первого пробного теста в разделе `Быстрый страт`_.
+На данном этапе мы имеем проинсталированный и готовый к работе Phantom, переходим к выполнению первого пробного теста в разделе `Быстрый старт`_.
 
-.. _Быстрый страт: http://phantom-doc-ru.readthedocs.org/en/latest/quickstart.html
+.. _Быстрый старт: http://phantom-doc-ru.readthedocs.org/en/latest/quickstart.html
