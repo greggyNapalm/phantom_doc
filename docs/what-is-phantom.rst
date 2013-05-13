@@ -55,6 +55,7 @@ Phantom является приложением с открытым исходн
  * `Pylot <http://pylot.org/>`_
  * `http_load <http://www.acme.com/software/http_load/>`_
  * `Grinder <http://grinder.sourceforge.net/>`_
+ * `Gatling <http://gatling-tool.org/>`_
 
 Проприетарные
 --------------
