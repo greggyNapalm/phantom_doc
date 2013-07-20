@@ -56,6 +56,7 @@ Phantom является приложением с открытым исходн
  * `http_load <http://www.acme.com/software/http_load/>`_
  * `Grinder <http://grinder.sourceforge.net/>`_
  * `Gatling <http://gatling-tool.org/>`_
+ * `wrk <https://github.com/wg/wrk/>`_
 
 Проприетарные
 --------------
@@ -71,6 +72,7 @@ Phantom является приложением с открытым исходн
  * `loadstorm <http://loadstorm.com/>`_
  * `loadimpact <http://loadimpact.com/>`_
  * `neustar <https://browsermob.com/performance-testing>`_
+ * `loader.io <http://loader.io/>`_
 
 `Более полный список инструментов <http://performance-testing.org/content/performance-testing-tools>`_
 
