@@ -57,6 +57,7 @@ Phantom является приложением с открытым исходн
  * `Grinder <http://grinder.sourceforge.net/>`_
  * `Gatling <http://gatling-tool.org/>`_
  * `wrk <https://github.com/wg/wrk/>`_
+ * `funkload <http://funkload.nuxeo.org/>`_
 
 Проприетарные
 --------------
