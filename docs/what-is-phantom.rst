@@ -58,6 +58,8 @@ Phantom является приложением с открытым исходн
  * `Gatling <http://gatling-tool.org/>`_
  * `wrk <https://github.com/wg/wrk/>`_
  * `funkload <http://funkload.nuxeo.org/>`_
+ * `sniper <https://github.com/lubia/sniper>`_
+ * `vegeta <https://github.com/tsenart/vegeta>`_
 
 Проприетарные
 --------------
