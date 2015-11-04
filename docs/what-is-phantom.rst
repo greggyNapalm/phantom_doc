@@ -76,7 +76,8 @@ Phantom является приложением с открытым исходн
  * `loadimpact <http://loadimpact.com/>`_
  * `neustar <https://browsermob.com/performance-testing>`_
  * `loader.io <http://loader.io/>`_
- * `blazemeter <http://blazemeter.com//>`_
+ * `blazemeter <http://blazemeter.com/>`_
+ * `apica <https://www.apicasystem.com/>`_
 
 `Более полный список инструментов <http://performance-testing.org/content/performance-testing-tools>`_
 
